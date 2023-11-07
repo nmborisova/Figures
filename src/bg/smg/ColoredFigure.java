@@ -8,8 +8,9 @@ abstract class ColoredFigure {
         this.size=s;
     }
     void show(){
-        System.out.println("Figure with color "+color+" with name "+getName()+" has size of "+getSizeName()+": "+size);
-        System.out.println("Area of figure is: "+getArea());
+        System.out.println("Фигура: "+color+" "+getName());
+        System.out.println("Характеристичен размер ("+getSizeName()+"): "+size);
+        System.out.println("Площта е: "+getArea());
         String line="";
         for(int i=0;i<30;i++){
             line+="*";
